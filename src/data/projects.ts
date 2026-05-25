@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     title: 'Tax Docs Portal',
     description: 'A full stack web application for managing and organizing tax documentation.',
-    repoUrl: 'https://github.com/cgtfarmer/tax-docs-portal',
+    repoUrl: 'https://github.com/Arsidee/Tax-Docs-Portal',
     category: 'Full Stack',
   },
 
