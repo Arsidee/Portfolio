@@ -6,7 +6,7 @@ import { projects } from '../data/projects';
 import type { Project } from '../data/projects';
 import ProjectCard from './ProjectCard';
 
-const categories: Project['category'][] = ['Full Stack', 'Frontend', 'Personal'];
+const categories: Project['category'][] = ['Full Stack', 'Backend', 'Frontend', 'Personal'];
 
 export default function ProjectsSection() {
   return (

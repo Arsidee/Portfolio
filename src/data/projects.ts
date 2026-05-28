@@ -3,10 +3,18 @@ export interface Project {
   description: string;
   liveUrl?: string;
   repoUrl?: string;
-  category: 'Full Stack' | 'Frontend' | 'Personal';
+  category: 'Full Stack' | 'Backend' | 'Frontend' | 'Personal';
 }
 
 export const projects: Project[] = [
+  // Backend
+  {
+    title: 'Demo Express API',
+    description: 'A RESTful API built with Node.js, Express, and PostgreSQL. Supports full CRUD for users and players, plus a custom combat endpoint — built to learn backend fundamentals.',
+    repoUrl: 'https://github.com/Arsidee/demo-express-api-pg',
+    category: 'Backend',
+  },
+
   // Full Stack
   {
     title: 'Tax Docs Portal',

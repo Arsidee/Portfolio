@@ -8,8 +8,9 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import type { Project } from '../data/projects';
 
-const categoryColors: Record<Project['category'], 'primary' | 'secondary' | 'default'> = {
+const categoryColors: Record<Project['category'], 'primary' | 'secondary' | 'success' | 'default'> = {
   'Full Stack': 'primary',
+  'Backend': 'success',
   'Frontend': 'secondary',
   'Personal': 'default',
 };
