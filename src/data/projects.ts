@@ -17,6 +17,12 @@ export const projects: Project[] = [
 
   // Full Stack
   {
+    title: '1v1 Simulator',
+    description: 'A full stack battle simulator — create characters, build a roster, then watch two fighters go head-to-head in a turn-by-turn combat simulation. Built with React, Express, and PostgreSQL.',
+    repoUrl: 'https://github.com/Arsidee/1-v-1-simulator',
+    category: 'Full Stack',
+  },
+  {
     title: 'Tax Docs Portal',
     description: 'A full stack web application for managing and organizing tax documentation.',
     repoUrl: 'https://github.com/Arsidee/Tax-Docs-Portal',
