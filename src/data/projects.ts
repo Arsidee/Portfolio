@@ -17,6 +17,12 @@ export const projects: Project[] = [
 
   // Full Stack
   {
+    title: 'AuctionDEMO',
+    description: 'A Ruby on Rails auction app with separate admin and user auth via Devise. Admins create auctions and lots with images; users register, browse, and place bids. Runs locally with Docker Compose.',
+    repoUrl: 'https://github.com/Arsidee/AuctionDEMO',
+    category: 'Full Stack',
+  },
+  {
     title: '1v1 Simulator',
     description: 'A full stack battle simulator — create characters, build a roster, then watch two fighters go head-to-head in a turn-by-turn combat simulation. Built with React, Express, and PostgreSQL.',
     repoUrl: 'https://github.com/Arsidee/1-v-1-simulator',
